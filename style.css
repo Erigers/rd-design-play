@@ -66,47 +66,62 @@ html, body, .container-fluid{
   animation-fill-mode: forwards;
 }
 
+.rotate-a-third{
+    -webkit-animation:  rotate-third .3s;
+    -o-animation:       rotate-third .3s;
+    animation:          rotate-third .3s;
+    animation-fill-mode: forwards;
+}
+
+.rotate-another-third{
+    -webkit-animation:  rotate-an-third .3s;
+    -o-animation:       rotate-an-third .3s;
+    animation:          rotate-an-third .3s;
+    animation-fill-mode: forwards;
+}
+
+
 @-webkit-keyframes anime {
-    0%   { width:0px; margin-left:100px; margin-top:100px; }
-    50%   { width:180px; margin-left:25px; margin-top:0px; }
+    0%   { width:0; margin-left:100px; margin-top:100px; }
+    50%   { width:180px; margin-left:25px; margin-top:0; }
     75% { width:170px; margin-left:30px; margin-top:5px; }
-    100%   { width:180px; margin-left:25px; margin-top:0px; }
+    100%   { width:180px; margin-left:25px; margin-top:0; }
 }
 @-moz-keyframes anime {
-    0%   { width:0px; margin-left:100px; margin-top:100px; }
-    50%   { width:180px; margin-left:25px; margin-top:0px; }
+    0%   { width:0; margin-left:100px; margin-top:100px; }
+    50%   { width:180px; margin-left:25px; margin-top:0; }
     75% { width:170px; margin-left:30px; margin-top:5px; }
-    100%   { width:180px; margin-left:25px; margin-top:0px; }
+    100%   { width:180px; margin-left:25px; margin-top:0; }
 }
 @-o-keyframes anime {
-    0%   { width:0px; margin-left:100px; margin-top:100px; }
-    50%   { width:180px; margin-left:25px; margin-top:0px; }
+    0%   { width:0; margin-left:100px; margin-top:100px; }
+    50%   { width:180px; margin-left:25px; margin-top:0; }
     75% { width:170px; margin-left:30px; margin-top:5px; }
-    100%   { width:180px; margin-left:25px; margin-top:0px; }
+    100%   { width:180px; margin-left:25px; margin-top:0; }
 }
 @keyframes anime {
-    0%   { width:0px; margin-left:100px; margin-top:100px; }
-    50%   { width:180px; margin-left:25px; margin-top:0px; }
+    0%   { width:0; margin-left:100px; margin-top:100px; }
+    50%   { width:180px; margin-left:25px; margin-top:0; }
     75% { width:170px; margin-left:30px; margin-top:5px; }
-    100%   { width:180px; margin-left:25px; margin-top:0px; }
+    100%   { width:180px; margin-left:25px; margin-top:0; }
 }
 
 @-webkit-keyframes rotate-smaller {
-  0%   { width:180px; margin-left:25px; margin-top:0px;}
+  0%   { width:180px; margin-left:25px; margin-top:0;}
   100% { width:100px; margin-left:-100px; margin-top:45px; transform:rotate(360deg);
                                           -webkit-transform:rotate(360deg);
                                           -moz-transform:rotate(360deg);
                                           -ms-transform:rotate(360deg);}
 }
 @-moz-keyframes rotate-smaller {
-  0%   { width:180px; margin-left:25px; margin-top:0px;}
+  0%   { width:180px; margin-left:25px; margin-top:0;}
   100% { width:100px; margin-left:-100px; margin-top:45px; transform:rotate(360deg);
                                           -webkit-transform:rotate(360deg);
                                           -moz-transform:rotate(360deg);
                                           -ms-transform:rotate(360deg);}
 }
 @-o-keyframes rotate-smaller {
-  0%   { width:180px; margin-left:25px; margin-top:0px;}
+  0%   { width:180px; margin-left:25px; margin-top:0;}
   100% { width:100px; margin-left:-100px; margin-top:45px; transform:rotate(360deg);
                                           -webkit-transform:rotate(360deg);
                                           -moz-transform:rotate(360deg);
@@ -114,11 +129,93 @@ html, body, .container-fluid{
 }
 
 @keyframes rotate-smaller {
-    0%   { width:180px; margin-left:25px; margin-top:0px;}
+    0%   { width:180px; margin-left:25px; margin-top:0;}
     100% { width:100px; margin-left:-100px; margin-top:45px; transform:rotate(360deg);
                                             -webkit-transform:rotate(360deg);
                                             -moz-transform:rotate(360deg);
                                             -ms-transform:rotate(360deg);}
+}
+
+@-webkit-keyframes rotate-third {
+    0%   { width:100px; }
+    100%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg); }
+}
+@-moz-keyframes rotate-third {
+    0%   { width:100px; }
+    100%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg); }
+}
+@-o-keyframes rotate-third {
+    0%   { width:100px; }
+    100%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg); }
+}
+@keyframes rotate-third {
+    0%   { width:100px; }
+    100%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg); }
+}
+
+@-webkit-keyframes rotate-an-third {
+    0%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg);}
+    100%   { width:100px; -webkit-transform: rotate(240deg);
+        -moz-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+        -o-transform: rotate(240deg);
+        transform: rotate(240deg); }
+}
+@-moz-keyframes rotate-an-third {
+    0%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg);}
+    100%   { width:100px; -webkit-transform: rotate(240deg);
+        -moz-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+        -o-transform: rotate(240deg);
+        transform: rotate(240deg); }
+}
+@-o-keyframes rotate-an-third {
+    0%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg);}
+    100%   { width:100px; -webkit-transform: rotate(240deg);
+        -moz-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+        -o-transform: rotate(240deg);
+        transform: rotate(240deg); }
+}
+@keyframes rotate-an-third {
+    0%   { width:100px; -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        transform: rotate(120deg);}
+    100%   { width:100px; -webkit-transform: rotate(240deg);
+        -moz-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+        -o-transform: rotate(240deg);
+        transform: rotate(240deg); }
 }
 
 .main-frame{
@@ -136,10 +233,11 @@ html, body, .container-fluid{
 }
 
 .move-right{
-    margin-left:0px;
+    margin-left:0;
 }
 
-.line-shadow, .text-shadow, .text-holder{
+.line-shadow, .text-shadow, .text-holder,
+.line-shadow2, .text-shadow2, .text-holder2{
     position:absolute;
     top:0;
     left:0;
@@ -148,7 +246,7 @@ html, body, .container-fluid{
     height:50px;
 }
 
-.line-shadow{
+.line-shadow, .line-shadow2{
     z-index: 10;
     background:#2d3035;
 
@@ -158,9 +256,13 @@ html, body, .container-fluid{
     -webkit-transition: all .3s;
 }
 
-.text-shadow{
+.line-shadow2{
+    z-index: 7 !important;
+}
+
+.text-shadow, .text-shadow2{
     z-index: 9;
-    border-top:5px solid #d82946;
+    border-top:5px solid #5fc08f;
     background:#2d3035;
 
     -webkit-transition: all .4s;
@@ -168,6 +270,11 @@ html, body, .container-fluid{
     -ms-transition: all .4s;
     -o-transition: all .4s;
     transition: all .4s;
+}
+
+.text-shadow2{
+    border-top:5px solid #fbb73e !important;
+    z-index: 6 !important;
 }
 
 .tesha-reducer{
@@ -209,6 +316,7 @@ html, body, .container-fluid{
     color:#7f7f7f;
     font-weight:500;
 
+    background: transparent !important;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
@@ -218,6 +326,11 @@ html, body, .container-fluid{
 
 .teho-up{
     top:-22px;
+}
+
+.smaller-font{
+    font-size:0;
+    top:0;
 }
 
 .top-border-display{

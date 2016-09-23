@@ -11,5 +11,11 @@ $(document).ready(function () {
     setTimeout(function () {
         $('.main-frame').addClass('move-right');
     }, 2450);
+    setTimeout(function () {
+        $('.text-shadow').addClass('tesha-reducer');
+    }, 2600);
+    setTimeout(function () {
+        $('.text-holder').addClass('teho-up');
+    }, 2700);
 
 });

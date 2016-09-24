@@ -320,7 +320,7 @@ html, body, .container-fluid{
 .main-frame{
     position:relative;
     float:left;
-    width:150px;
+    width:250px;
     margin-top:80px;
     margin-left:-13px;
 
@@ -458,19 +458,19 @@ html, body, .container-fluid{
 }
 
 @-webkit-keyframes border-display {
-    0%   { left:0; width:150px;}
-    100% { left:150px; width:0;}
+    0%   { left:0; width:350px;}
+    100% { left:350px; width:0;}
 }
 @-moz-keyframes border-display {
-    0%   { left:0; width:150px;}
-    100% { left:150px; width:0;}
+    0%   { left:0; width:350x;}
+    100% { left:350px; width:0;}
 }
 @-o-keyframes border-display {
-    0%   { left:0; width:150px;}
-    100% { left:150px; width:0;}
+    0%   { left:0; width:350px;}
+    100% { left:350px; width:0;}
 }
 
 @keyframes border-display {
-    0%   { left:0; width:150px;}
-    100% { left:150px; width:0;}
+    0%   { left:0; width:350px;}
+    100% { left:350px; width:0;}
 }

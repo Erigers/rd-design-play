@@ -462,7 +462,7 @@ html, body, .container-fluid{
     100% { left:350px; width:0;}
 }
 @-moz-keyframes border-display {
-    0%   { left:0; width:350x;}
+    0%   { left:0; width:350px;}
     100% { left:350px; width:0;}
 }
 @-o-keyframes border-display {

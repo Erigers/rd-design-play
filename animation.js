@@ -7,7 +7,7 @@ $(document).ready(function() {
         $(".line-shadow").addClass("top-border-display")
     }, 2100), setTimeout(function() {
         $(".main-frame").addClass("move-right")
-    }, 2400), setTimeout(function() {
+    }, 2300), setTimeout(function() {
         $(".text-shadow").addClass("tesha-reducer")
     }, 2600), setTimeout(function() {
         $(".text-holder").addClass("teho-up")
@@ -18,8 +18,8 @@ $(document).ready(function() {
     }, 3e3), setTimeout(function() {
         $(".line-shadow2").addClass("top-border-display")
     }, 3300), setTimeout(function() {
-        $(".main-frame").css("margin-left", "0px")
-    }, 3600), setTimeout(function() {
+        $(".main-frame").css("margin-left","25px")
+    }, 3500), setTimeout(function() {
         $(".text-shadow2").addClass("tesha-reducer")
     }, 3800), setTimeout(function() {
         $(".text-holder2").addClass("teho-up")
@@ -30,7 +30,7 @@ $(document).ready(function() {
     }, 4200), setTimeout(function() {
         $(".line-shadow3").addClass("top-border-display")
     }, 4500), setTimeout(function() {
-        $(".main-frame").css("margin-left", "0px")
+        $(".main-frame").css("margin-left", "25px")
     }, 4800), setTimeout(function() {
         $(".text-shadow3").addClass("tesha-reducer")
     }, 5e3), setTimeout(function() {

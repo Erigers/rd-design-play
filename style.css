@@ -237,7 +237,8 @@ html, body, .container-fluid{
 }
 
 .line-shadow, .text-shadow, .text-holder,
-.line-shadow2, .text-shadow2, .text-holder2{
+.line-shadow2, .text-shadow2, .text-holder2,
+.line-shadow3, .text-shadow3, .text-holder3{
     position:absolute;
     top:0;
     left:0;
@@ -246,7 +247,7 @@ html, body, .container-fluid{
     height:50px;
 }
 
-.line-shadow, .line-shadow2{
+.line-shadow, .line-shadow2, .line-shadow3{
     z-index: 10;
     background:#2d3035;
 
@@ -260,7 +261,11 @@ html, body, .container-fluid{
     z-index: 7 !important;
 }
 
-.text-shadow, .text-shadow2{
+.line-shadow3{
+    z-index: 4 !important;
+}
+
+.text-shadow, .text-shadow2, .text-shadow3{
     z-index: 9;
     border-top:5px solid #5fc08f;
     background:#2d3035;
@@ -275,6 +280,11 @@ html, body, .container-fluid{
 .text-shadow2{
     border-top:5px solid #fbb73e !important;
     z-index: 6 !important;
+}
+
+.text-shadow3{
+    border-top:5px solid #d82946 !important;
+    z-index: 3 !important;
 }
 
 .tesha-reducer{
@@ -310,7 +320,7 @@ html, body, .container-fluid{
     100% { top:25px; height:0; opacity:0;}
 }
 
-.text-holder{
+.text-holder, .text-holder2, .text-holder3{
     z-index: 8;
     font-size:32px;
     color:#7f7f7f;
@@ -322,6 +332,14 @@ html, body, .container-fluid{
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+.text-holder2{
+    z-index: 5 !important;
+}
+
+.text-holder3{
+    z-index: 2 !important;
 }
 
 .teho-up{
@@ -357,10 +375,3 @@ html, body, .container-fluid{
     0%   { left:0; width:150px;}
     100% { left:150px; width:0;}
 }
-
-
-/*e kuqja #d82946*/
-
-/*E verdha #fbb73e*/
-
-/*Jeshilja #5fc08f*/

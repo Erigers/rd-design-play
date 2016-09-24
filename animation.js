@@ -45,5 +45,6 @@ $(document).ready(function () {
         $('.play-holder svg').addClass('rotate-another-third');
     }, 4200);
 
+    // round 3
 
 });

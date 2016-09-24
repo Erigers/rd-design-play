@@ -43,8 +43,26 @@ $(document).ready(function () {
     },4200);
     setTimeout(function(){
         $('.play-holder svg').addClass('rotate-another-third');
+        $('.main-frame').removeClass('move-right').css('margin-left','-9px').css('margin-top','82px');
     }, 4200);
 
     // round 3
-
+    setTimeout(function(){
+        $('.line-shadow3').addClass('top-border-display');
+    },4500);
+    setTimeout(function(){
+        $('.main-frame').css('margin-left',"0px");
+    },4800);
+    setTimeout(function () {
+        $('.text-shadow3').addClass('tesha-reducer');
+    }, 5000);
+    setTimeout(function () {
+        $('.text-holder3').addClass('teho-up');
+    }, 5100);
+    setTimeout(function(){
+        $('.text-holder3').addClass('smaller-font');
+    },5400);
+    setTimeout(function(){
+        $('.play-holder svg').addClass('rotate-last-third');
+    }, 5400);
 });

@@ -46,7 +46,6 @@ html, body, .container-fluid{
     -o-transition: all .6s;
     -moz-transition: all .6s;
     -webkit-transition: all .6s;
-
     float:left;
 }
 
@@ -63,9 +62,9 @@ html, body, .container-fluid{
 }
 
 .rotate-logo{
-  -moz-animation:    rotate-smaller .5s; /* Fx 5+ */
-  -o-animation:      rotate-smaller .5s; /* Opera 12+ */
-  animation:         rotate-smaller .5s; /* IE 10+, Fx 29+ */
+  -moz-animation:    rotate-smaller 1s; /* Fx 5+ */
+  -o-animation:      rotate-smaller 1s; /* Opera 12+ */
+  animation:         rotate-smaller 1s; /* IE 10+, Fx 29+ */
   animation-fill-mode: forwards;
 }
 
@@ -298,23 +297,23 @@ html, body, .container-fluid{
 }
 
 @-webkit-keyframes zeze {
-    0% {width:180px; margin-left:25px;}
-    100% {width:0; margin-left:100px; }
+    0% {opacity:1;}
+    100% { opacity:0 !important; }
 }
 
 @-moz-keyframes zeze {
-    0% {width:180px; margin-left:25px;}
-    100% {width:0; margin-left:100px; }
+    0% {opacity:1;}
+    100% { opacity:0 !important; }
 }
 
 @-o-keyframes zeze {
-    0% {width:180px; margin-left:25px;}
-    100% {width:0; margin-left:100px; }
+    0% {opacity:1;}
+    100% { opacity:0 !important; }
 }
 
 @keyframes zeze {
-    0% {width:180px; margin-left:25px;}
-    100% {width:0; margin-left:100px; }
+    0% {opacity:1;}
+    100% { opacity:0 !important;}
 }
 
 .main-frame{
